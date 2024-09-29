@@ -21,15 +21,6 @@ body{
     text-align: center;
     border-radius: 20px;
 }
-.games_title{
-    background-color:#06720f;
-    color: #00ff73;
-    padding: 10px;
-    margin: 10px;
-    display: inline-block;
-    text-align: center;
-    border-radius: 20px;
-}
 #stay_alive{
     border-radius: 20%;
     display: inline-block;
