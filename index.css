@@ -1,11 +1,80 @@
-*{
-    padding: 0%;
-    margin: 0%;
+body{
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
 }
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
 .header{
-    background-color:#6bb77b;
-    color: #d76f30;
+    background-color:#e60000;
+    color: #ffffff;
     padding: 10px;
     margin: 10px;
+    display: inline-block;
     text-align: center;
+    border-radius: 20px;
+}
+.games_title{
+    background-color:#06720f;
+    color: #00ff73;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 20px;
+}
+#stay_alive{
+    border-radius: 20%;
+    display: inline-block;
+    margin: 20px;
+    background-color: rgb(138, 0, 126);
+    padding: 8px;
+    border-radius: 10px;
+}
+#be_fast{
+    border-radius: 20%;
+    display: inline-block;
+    margin: 20px;
+    background-color: rgb(138, 0, 126);
+    padding: 8px;
+    border-radius: 10px;
+}
+.about_me{
+    align-items: center;
+    text-align: center;
+}
+#my_photo{
+    display: inline-block;
+    background-color: rgb(138, 0, 126);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+#info{
+    display: inline-block;
+    background-color: rgb(138, 0, 126);
+    color: #ffffff;
+    border-radius: 10px;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+}
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eb196a;
+    padding: 10px;
+    border-radius: 10px;
 }
