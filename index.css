@@ -3,7 +3,8 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 100vh;
+    height: 100%;
+    width: 100%;
     margin: 0;
     text-align: center;
 }
@@ -57,11 +58,12 @@ body{
     text-align: left;
     padding: 10px;
     margin: 10px;
+    margin-bottom: 50px;
 }
 footer{
-    position: fixed;
+    position:fixed;   
     bottom: 0px;
-    width: 100%;
+    width:100%;
     display: flex;
     justify-content: center;
     align-items: center;
