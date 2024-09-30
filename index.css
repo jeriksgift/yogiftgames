@@ -3,8 +3,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 100%;
-    width: 100%;
+    min-height: 100vh;
     margin: 0;
     text-align: center;
 }
