@@ -40,6 +40,8 @@ body{
 .about_me{
     align-items: center;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 #my_photo{
     display: inline-block;
