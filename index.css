@@ -29,9 +29,6 @@ body{
     padding: 8px;
     border-radius: 10px;
 }
-#stay_alive :hover{
-    background-color: #eb196a;
-}
 #be_fast{
     border-radius: 20%;
     display: inline-block;
@@ -40,9 +37,6 @@ body{
     padding: 8px;
     border-radius: 10px;
 }
-#be_fast :hover{
-    background-color: #eb196a;
-}
 #my_photo{
     display: inline-block;
     background-color: #8a007e;
@@ -50,9 +44,6 @@ body{
     margin: 10px;
     border-radius: 10px;
 }
-/* #my_photo :hover{
-    background-color: #eb196a;
-} */
 #info{
     display: inline-block;
     background-color: #8a007e;
