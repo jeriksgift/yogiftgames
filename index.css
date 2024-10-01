@@ -50,9 +50,9 @@ body{
     margin: 10px;
     border-radius: 10px;
 }
-#my_photo :hover{
+/* #my_photo :hover{
     background-color: #eb196a;
-}
+} */
 #info{
     display: inline-block;
     background-color: #8a007e;
