@@ -1,3 +1,50 @@
+
+@media screen and (max-width: 600px){
+    .about_me{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    #info{
+        font-size: large;
+    }    
+    footer{
+        position:fixed;   
+        bottom: 0px;
+        width:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #eb196a;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: large;
+    }
+}
+@media screen and (min-width: 600px){
+    .about_me{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+    }
+    #info{
+        font-size: medium;
+    }    
+    footer{
+        position:fixed;   
+        bottom: 0px;
+        width:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #eb196a;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: medium;
+    }
+}
 body{
     background-image: url('bg.jpg');
     background-size: cover;
@@ -37,12 +84,6 @@ body{
     padding: 8px;
     border-radius: 10px;
 }
-.about_me{
-    align-items: center;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-}
 #my_photo{
     display: inline-block;
     background-color: rgb(138, 0, 126);
@@ -60,15 +101,4 @@ body{
     padding: 10px;
     margin: 10px;
     margin-bottom: 50px;
-}
-footer{
-    position:fixed;   
-    bottom: 0px;
-    width:100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #eb196a;
-    padding: 10px;
-    border-radius: 10px;
 }
