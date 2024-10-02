@@ -27,9 +27,7 @@ a{
     padding: 10px;
     border-radius: 10px;
     border-width: 3px;
-    border-style: solid;
-    border-color: black;
-    background-color: #8a007e73;
+    border-bottom-style: dotted;
     width: 97.5vw;
     color: white;
 }
