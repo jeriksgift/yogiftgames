@@ -27,6 +27,7 @@ a{
     padding: 10px;
     border-radius: 10px;
     border-width: 3px;
+    border-color : #8a007e;
     border-style: dotted;
     width: 97.5vw;
     color: white;
@@ -104,6 +105,10 @@ a{
     text-align: center;
     justify-content: center;
     margin-bottom: 50px;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color : #8a007e;
+    border-style: dotted;
 }
 
 #contact {
