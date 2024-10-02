@@ -1,19 +1,58 @@
-body{
+body {
     background-image: url('bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     min-height: 100vh;
     margin: 0;
-    text-align: center;
 }
-*{
+
+a{
+    color: white;
+}
+
+* {
     margin: 0%;
     padding: 0%;
 }
 
-.header{
-    background-color:#e60000;
+#body {
+    display: flex;
+    flex-direction: row;
+}
+
+.games {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    background-color: #8a007e73;
+    width: 97.5vw;
+    color: white;
+}
+
+.pcgames {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.mobilegames {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.headingdiv {
+    text-align: center;
+}
+
+.header {
+    background-color: #e60000;
     color: #ffffff;
     padding: 10px;
     margin: 10px;
@@ -21,30 +60,36 @@ body{
     text-align: center;
     border-radius: 20px;
 }
-#stay_alive{
+
+#stay_alive {
     border-radius: 20%;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     margin: 20px;
     background-color: #8a007e;
     padding: 8px;
     border-radius: 10px;
 }
-#be_fast{
+
+#be_fast {
     border-radius: 20%;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     margin: 20px;
     background-color: #8a007e;
     padding: 8px;
     border-radius: 10px;
 }
-#my_photo{
+
+#my_photo {
     display: inline-block;
     background-color: #8a007e;
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
 }
-#info{
+
+#info {
     display: inline-block;
     background-color: #8a007e;
     color: #ffffff;
@@ -52,22 +97,25 @@ body{
     text-align: left;
     padding: 10px;
     margin: 10px;
-    margin-bottom: 50px;
+    height: max-content;
 }
-#about_me{
+
+#about_me {
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: center;
+    margin-bottom: 50px;
 }
-#contact{
-    position:fixed;   
+
+#contact {
+    position: fixed;
     bottom: 0px;
-    width:100%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #eb196a;
+    background-color: #8a007e;
     padding: 10px;
     border-radius: 10px;
 }
