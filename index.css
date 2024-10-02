@@ -27,7 +27,7 @@ a{
     padding: 10px;
     border-radius: 10px;
     border-width: 3px;
-    border-bottom-style: dotted;
+    border-style: dotted;
     width: 97.5vw;
     color: white;
 }
